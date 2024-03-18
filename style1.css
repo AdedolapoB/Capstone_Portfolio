@@ -1,0 +1,103 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+nav {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover, nav ul li a:focus {
+    background-color: #555;
+}
+
+.about-header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.about-header h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.about-content section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.about-content h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+blockquote {
+    margin: 20px 0;
+    padding: 10px 20px;
+    background: #f9f9f9;
+    border-left: 5px solid #ccc;
+    font-style: italic;
+}
+
+.btn {
+    display: inline-block;
+    background: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #eaeaea;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    .about-content {
+        padding: 10px;
+    }
+}
